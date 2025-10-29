@@ -1,0 +1,21 @@
+name,is_legal_entity_name,website,hq_region,hq_subregion,hq_fuzzy,industry_id,industry_name,external_id,email,duns_number,lei_number,isin_number,sp_global_number,requested_organization_id,organization_id,spend_2023,spend_2022
+Apple Inc.,true,https://www.apple.com,US,CA,California,123456,Technology,AAPL,investor@apple.com,,,,,,123,1000000,800000
+Nike Inc.,false,https://www.nike.com,US,OR,Oregon,789012,Consumer Goods,NKE,investor@nike.com,,,,,,456,2500000,2000000
+Microsoft Corporation,true,https://www.microsoft.com,US,WA,Washington,234567,Software/IT,MSFT,investor@microsoft.com,,,,,,789,3200000,2800000
+Tesla Inc.,true,https://www.tesla.com,US,TX,Texas,345678,Automotive,TSLA,investor@tesla.com,,,,,,101,4500000,3900000
+Amazon.com Inc.,true,https://www.amazon.com,US,WA,Washington,456789,E-Commerce,AMZN,investor@amazon.com,,,,,,202,5000000,4200000
+Siemens AG,true,https://www.siemens.com,DE,Bavaria,Bavaria,567890,Industrial Manufacturing,SIE,investor@siemens.com,,,,,,303,2800000,2400000
+BASF SE,true,https://www.basf.com,DE,RLP,Rhineland-Palatinate,678901,Chemicals,BAS,investor@basf.com,,,,,,404,3100000,2700000
+Unilever PLC,true,https://www.unilever.com,GB,London,London,789012,Consumer Goods,UNA,investor@unilever.com,,,,,,505,2200000,1900000
+Nestlé USA Inc.,false,https://www.nestle.com,US,CA,California,890123,Food & Beverage,NSRGY,investor@nestle.com,,,,,,606,2000000,1700000
+Toyota Motor Corporation,true,https://www.toyota.com,JP,Aichi,Aichi,901234,Automotive Manufacturing,TM,investor@toyota.com,,,,,,707,4200000,3600000
+Samsung Electronics,true,https://www.samsung.com,KR,Seoul,Seoul,012345,Consumer Electronics,SSNLF,investor@samsung.com,,,,,,808,3800000,3200000
+Volkswagen Group,true,https://www.volkswagen.com,DE,Lower Saxony,Lower Saxony,123456,Automotive Manufacturing,VLKAF,investor@vw.com,,,,,,909,3500000,3000000
+ExxonMobil Corporation,true,https://www.exxonmobil.com,US,TX,Texas,234567,Oil & Gas,XOM,investor@exxon.com,,,,,,1010,6000000,5500000
+BP plc,true,https://www.bp.com,GB,London,London,345678,Oil & Gas,BP,investor@bp.com,,,,,,1111,5500000,5000000
+Deutsche Post DHL Group,true,https://www.dhl.com,DE,North Rhine-Westphalia,Bonn,456789,Logistics/Transportation,DPSTF,investor@dhl.com,,,,,,1212,2300000,2000000
+FedEx Corporation,true,https://www.fedex.com,US,TN,Tennessee,567890,Logistics/Transportation,FDX,investor@fedex.com,,,,,,1313,2900000,2500000
+Adidas AG,true,https://www.adidas-group.com,DE,Bavaria,Herzogenaurach,678901,Apparel & Footwear,ADS,investor@adidas.com,,,,,,1414,2100000,1800000
+HSBC Holdings plc,true,https://www.hsbc.com,GB,London,London,789012,Financial Services,HSBC,investor@hsbc.com,,,,,,1515,1800000,1600000
+JPMorgan Chase & Co.,true,https://www.jpmorganchase.com,US,NY,New York,890123,Financial Services,JPM,investor@jpmorgan.com,,,,,,1616,2400000,2100000
+General Electric Company,true,https://www.ge.com,US,MA,Massachusetts,901234,Industrial Manufacturing,GE,investor@ge.com,,,,,,1717,3300000,2900000

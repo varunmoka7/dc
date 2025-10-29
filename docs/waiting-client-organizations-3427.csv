@@ -1,0 +1,21 @@
+client_organization_id,website,name,hq_region,hq_subregion,industry_name,industry,external_id,link
+1,https://www.apple.com,Apple Inc,North America,Northern America,Consumer Electronics,3571,ext_apple_001,https://ditchcarbon.com/org/apple
+2,https://www.tesla.com,Tesla Inc,North America,Northern America,Automotive Manufacturing,3711,ext_tesla_001,https://ditchcarbon.com/org/tesla
+3,https://www.microsoft.com,Microsoft Corporation,North America,Northern America,Software/IT Services,7372,ext_microsoft_001,https://ditchcarbon.com/org/microsoft
+4,https://www.amazon.com,Amazon.com Inc,North America,Northern America,E-Commerce/Cloud Services,5961,ext_amazon_001,https://ditchcarbon.com/org/amazon
+5,https://www.siemens.com,Siemens AG,Europe,Western Europe,Industrial Manufacturing,3559,ext_siemens_001,https://ditchcarbon.com/org/siemens
+6,https://www.nestleusa.com,Nestle USA Inc,North America,Northern America,Food & Beverage,2038,ext_nestle_001,https://ditchcarbon.com/org/nestle
+7,https://www.toyota.com,Toyota Motor Corporation,Asia,East Asia,Automotive Manufacturing,3711,ext_toyota_001,https://ditchcarbon.com/org/toyota
+8,https://www.samsung.com,Samsung Electronics,Asia,East Asia,Consumer Electronics,3679,ext_samsung_001,https://ditchcarbon.com/org/samsung
+9,https://www.unilever.com,Unilever PLC,Europe,Western Europe,Consumer Goods,2844,ext_unilever_001,https://ditchcarbon.com/org/unilever
+10,https://www.basf.com,BASF SE,Europe,Western Europe,Chemicals,2869,ext_basf_001,https://ditchcarbon.com/org/basf
+11,https://www.exxonmobil.com,ExxonMobil Corporation,North America,Northern America,Oil & Gas,1311,ext_exxonmobil_001,https://ditchcarbon.com/org/exxonmobil
+12,https://www.bp.com,BP plc,Europe,Western Europe,Oil & Gas,1311,ext_bp_001,https://ditchcarbon.com/org/bp
+13,https://www.dhl.com,Deutsche Post DHL Group,Europe,Western Europe,Logistics/Transportation,4215,ext_dhl_001,https://ditchcarbon.com/org/dhl
+14,https://www.fedex.com,FedEx Corporation,North America,Northern America,Logistics/Transportation,4215,ext_fedex_001,https://ditchcarbon.com/org/fedex
+15,https://www.ge.com,General Electric Company,North America,Northern America,Industrial Manufacturing,3559,ext_ge_001,https://ditchcarbon.com/org/ge
+16,https://www.nike.com,Nike Inc,North America,Northern America,Apparel & Footwear,3142,ext_nike_001,https://ditchcarbon.com/org/nike
+17,https://www.adidas.de,Adidas AG,Europe,Western Europe,Apparel & Footwear,3142,ext_adidas_001,https://ditchcarbon.com/org/adidas
+18,https://www.volkswagen.de,Volkswagen Group,Europe,Western Europe,Automotive Manufacturing,3711,ext_vw_001,https://ditchcarbon.com/org/vw
+19,https://www.hsbc.com,HSBC Holdings plc,Asia,East Asia,Financial Services,6211,ext_hsbc_001,https://ditchcarbon.com/org/hsbc
+20,https://www.jpmorgan.com,JPMorgan Chase & Co,North America,Northern America,Financial Services,6211,ext_jpmorgan_001,https://ditchcarbon.com/org/jpmorgan

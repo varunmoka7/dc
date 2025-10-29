@@ -1,0 +1,26 @@
+
+.clinerules/byterover-rules.md
+.kilocode/rules/byterover-rules.md
+.roo/rules/byterover-rules.md
+.windsurf/rules/byterover-rules.md
+.cursor/rules/byterover-rules.mdc
+.kiro/steering/byterover-rules.md
+.qoder/rules/byterover-rules.md
+.augment/rules/byterover-rules.md
+
+# Sensitive Ditch Carbon Documents - DO NOT COMMIT
+docs/contracts/*
+docs/work/*
+docs/company/*
+docs/research/*
+*.pdf
+*.docx
+*.xlsx
+*.pptx
+.env
+.env.local
+*.key
+*.pem
+# BMAD (local only)
+.bmad-core/
+.bmad-*/
