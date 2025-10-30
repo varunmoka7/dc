@@ -8,19 +8,8 @@
 .qoder/rules/byterover-rules.md
 .augment/rules/byterover-rules.md
 
-# Sensitive Ditch Carbon Documents - DO NOT COMMIT
-docs/contracts/*
-docs/work/*
-docs/company/*
-docs/research/*
-*.pdf
-*.docx
-*.xlsx
-*.pptx
+# Sensitive environment files only
 .env
 .env.local
 *.key
 *.pem
-# BMAD (local only)
-.bmad-core/
-.bmad-*/
