@@ -32,7 +32,7 @@ Copy this entire JSON configuration to your `~/.cursor/mcp.json` file:
         "@jpisnice/shadcn-ui-mcp-server"
       ],
       "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "YOUR_GITHUB_TOKEN_HERE"
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "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"
       }
     },
     "byterover-mcp": {

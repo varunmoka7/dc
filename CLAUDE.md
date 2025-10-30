@@ -111,30 +111,171 @@ You `MUST` always use this tool when:
 
 ## Team Interaction Tracking Protocol
 
-**AUTOMATIC RULE:** Whenever user provides email conversations or interactions with DitchCarbon team members:
+### 1:1 Interactions (Individual Tracking)
+**AUTOMATIC RULE:** When user provides 1:1 email conversations or direct interactions with DitchCarbon team members:
 
 1. **Create/Update tracking file** at `/docs/work/team-interactions/{firstname}/{FIRSTNAME}-{LASTNAME}-interactions.md`
 2. **Document everything:**
    - Role, contact info, timezone
-   - Email date and full content
+   - Email/call date and full content
    - Key information extracted
    - Questions/action items raised
    - Outstanding items checklist
    - Insights about communication style
    - Date timestamp
 
-3. **Maintain chronologically** - each new email adds to the conversation thread
-4. **Apply to ALL team members** - not just initial contact
-5. **Update immediately** when new emails are provided
+3. **Maintain chronologically** - each new interaction adds to the conversation thread
+4. **Use for significant relationships** - managers, frequent collaborators, key stakeholders
+5. **Update immediately** when new 1:1 content is provided
 
-**Folder Structure:**
+**Individual Tracking Folder:**
 ```
 /docs/work/team-interactions/
-├── alex/ → ALEX-RUDNICKI-interactions.md
-├── veronika/ → VERONIKA-{LASTNAME}-interactions.md
-├── marc/ → MARC-MUNIER-interactions.md
-└── [other-team-members]/ → {NAME}-interactions.md
+├── alex/ → ALEX-RUDNICKI-interactions.md (COO, frequent 1:1s)
+├── veronika/ → VERONIKA-{LASTNAME}-interactions.md (when 1:1 interactions occur)
+├── marc/ → MARC-MUNIER-interactions.md (when 1:1 interactions occur)
+└── [other-key-contacts]/ → {NAME}-interactions.md (as needed)
 ```
+
+### Team Meetings (Centralized Tracking)
+**AUTOMATIC RULE:** When user provides team standup meetings or group calls:
+
+1. **Create dated file** at `/docs/work/standups/YYYY-MM-DD-standup.md`
+2. **Document:**
+   - All attendees
+   - Each person's updates (work completed, in progress, blockers)
+   - Team action items
+   - Key themes and insights
+   - Cross-team coordination notes
+
+3. **Do NOT create individual files** for standup participants unless they have separate 1:1 interactions
+4. **Use standups to learn** about team members' roles, expertise, and work focus
+
+**Standup Tracking Folder:**
+```
+/docs/work/standups/
+├── 2025-10-29-standup.md
+├── 2025-10-30-standup.md (if it occurs)
+└── [future-standups]/ → YYYY-MM-DD-standup.md
+```
+
+**Philosophy:** Track 1:1 relationships deeply, track team meetings centrally, create individual files only when needed.
+
+---
+
+## DUAL TRACKING SYSTEM - DATE-BASED + PERSON-BASED
+
+**CRITICAL RULE:** ALL interactions must be tracked in BOTH systems simultaneously.
+
+### System Overview
+
+**Person-Based Tracking** (`/docs/work/team-interactions/{name}/`)
+- **Purpose:** Full relationship history with each individual
+- **Content:** Complete conversation details, all interactions chronologically
+- **Use when:** Preparing for 1:1s, understanding communication patterns, reviewing relationship history
+
+**Date-Based Tracking** (`/docs/work/interaction-timeline/YYYY-MM-DD-interactions.md`)
+- **Purpose:** Chronological view of all daily activities
+- **Content:** High-level summaries with cross-references to detailed notes
+- **Use when:** Reviewing what happened on specific dates, weekly reflections, tracking action items by day
+
+### Automatic Update Protocol
+
+**When user provides ANY interaction notes (1:1, meeting, customer call):**
+
+1. **Update person-based file** (`/docs/work/team-interactions/{name}/{NAME}-interactions.md`)
+   - Full detailed notes
+   - Date stamp clearly visible
+   - Action items
+   - Key learnings
+
+2. **Update date-based file** (`/docs/work/interaction-timeline/YYYY-MM-DD-interactions.md`)
+   - Summary of interaction
+   - Key outcomes
+   - Cross-reference link to detailed notes
+   - Categorize: 1:1 meeting, team meeting, or customer call
+
+3. **Ensure bidirectional links**
+   - Date file → Person file
+   - Person file includes date stamp
+   - Both systems stay synchronized
+
+### Date-Based File Structure
+
+Each date file contains:
+- **1:1 Meetings** - Direct conversations with team members
+- **Team Meetings** - Standups, all-hands, group discussions
+- **Customer Calls** - External client interactions
+- **Action Items** - Tasks created that day
+- **Key Learnings** - Insights and takeaways
+- **Cross-References** - Links to detailed notes
+
+### Example Workflow
+
+**User provides:** "Here are notes from my 1:1 with Alex today"
+
+**You must:**
+1. ✅ Add full notes to `/docs/work/team-interactions/alex/ALEX-RUDNICKI-interactions.md`
+2. ✅ Add summary + link to `/docs/work/interaction-timeline/2025-10-30-interactions.md`
+3. ✅ Verify cross-references work both directions
+4. ✅ Confirm date accuracy
+
+**Do NOT:**
+- ❌ Only update one system
+- ❌ Forget cross-references
+- ❌ Mislabel dates
+- ❌ Wait to update later
+
+### Archive Folder
+**Location:** `/docs/work/archive/`
+
+**Purpose:** Historical onboarding materials and outdated reference documents
+
+**Contents:**
+- FIRST-DAY-PREP.md - First day preparation guide (Oct 27)
+- MEETING-CALENDAR.md - Initial meeting calendar setup
+- ONBOARDING-CHECKLIST.md - Week 1-2 onboarding checklist
+
+**When to Archive:**
+- Onboarding materials after completion
+- Outdated planning documents
+- Historical reference files no longer actively used
+
+---
+
+## Daily Updates Tracking Protocol
+
+**AUTOMATIC RULE:** Create a daily update file at end of each workday to track progress, learnings, and insights.
+
+### Daily Update Process
+
+1. **Create dated file** at `/docs/work/daily-updates/YYYY-MM-DD-daily-update.md`
+2. **Document:**
+   - What I Did Today (tasks, meetings, projects)
+   - Key Meeting Takeaways (customer calls, team discussions)
+   - Key Learnings (categorized: Customer Success, Product-Market Fit, Data Management, Team Insights)
+   - My Action Items (with checkboxes)
+   - Observations (personal reflections, growth moments)
+
+3. **Update throughout day or at end of day**
+4. **Include day number** in title (e.g., "Day 3")
+5. **Cross-reference** to customer files, team interaction logs when relevant
+
+**Daily Updates Folder:**
+```
+/docs/work/daily-updates/
+├── 2025-10-30-daily-update.md (Day 3)
+├── 2025-10-31-daily-update.md (Day 4)
+└── [future-updates]/ → YYYY-MM-DD-daily-update.md
+```
+
+**Integration:**
+- Feed insights into weekly learning log (every Friday)
+- Use for weekly reflections and monthly reviews
+- Track action item completion across days
+- Build narrative of progress and growth
+
+**Philosophy:** Daily capture enables weekly reflection, prevents forgetting insights, builds evidence of growth and impact.
 
 ---
 

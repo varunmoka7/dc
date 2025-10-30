@@ -62,7 +62,7 @@
 
 | Name | Type | ACV | Notes |
 |------|------|-----|-------|
-| Coherent | Direct | £20,000 | Strong engagement signals |
+| Coherent | Direct | £20,000 | Strong engagement signals; Q1 2026 data submitted; Supplier engagement program launching; New Chief Supply Chain Officer highly supportive |
 | Grant Thornton | Direct | £12,000 | Professional services |
 | NatWest | Direct | £28,000 | Financial institution |
 | Tracegains | Partner - Procurement | £24,000 | Procurement partnership |
@@ -124,7 +124,8 @@
 4. **Enterprise Growth:** Large accounts (£20k+) concentrated in stable category
 
 ### 🟡 Watch List
-- **NatWest & Coherent:** In "In Love?" stage - high potential if converted
+- **NatWest:** In "In Love?" stage - high potential if converted
+- **Coherent:** In "In Love?" stage - HIGH CONVERSION POTENTIAL (Oct 30 update: Q1 2026 data submitted, supplier engagement program launching, new Chief Supply Chain Officer highly supportive, category manager training complete)
 - **Tracegains:** £24k partner account showing strong engagement
 - **Churn Recovery:** Coupa (£15k), Haleon (£10k), Zurich (£9k) worth recovering
 
@@ -153,3 +154,37 @@
 - Some accounts have no ACV recorded (type/stage marked as "—")
 - Need to clarify Salesforce NetZero status (no stage, no ACV)
 - Amazon has 3 distinct entities - consider consolidation strategy
+
+---
+
+## Recent Updates (October 2025)
+
+### Coherent - Customer Call (Oct 30, 2025)
+**Status:** In Love? → Strong expansion signals
+
+**Key Developments:**
+- Q1 2026 spend data submitted (processing in progress - 1 week timeline)
+- New Chief Supply Chain Officer "very supportive" of sustainability program
+- Category manager training completed on DitchCarbon platform
+- Presentation to Chief Supply Chain Officer scheduled (week of Nov 3)
+- Supplier engagement program launching (informational + action request letters)
+- Evaluating DitchCarbon supplier claim profile feature (launched Oct 30) vs. Excel for supplier outreach
+- **Customer pressure:** "Tremendous pressure" to reduce Scope 3 emissions quickly
+
+**Attendees:** Richard Marino (Sustainability Lead), Valerie Estacuy (Procurement Sustainability), Alexa (Analyst)
+
+**Product Features of Interest:**
+- Supplier claim profile (NEW - launched Oct 30)
+- Supplier maturity module (launching November)
+- CDP data integration
+- Supplier emissions recommendations
+
+**Action Items:**
+- [ ] Alex: Process Q1 2026 data (1 week)
+- [ ] Alex: Send supplier claim profile demo video
+- [ ] Valerie: Decide on supplier engagement tool (DitchCarbon vs Excel)
+- [ ] Monitor Chief Supply Chain Officer presentation outcome (Nov 3)
+
+**Expansion Potential:** HIGH - Growing program, executive support, category manager adoption scaling
+
+**See:** `/docs/customers/coherent/` for full profile and interaction details

@@ -1,0 +1,290 @@
+DitchCarbon Ltd
+
+Company Number 13487671
+
+167-169 Great Portland Street , London, W1W 5PF, United Kingdom
+
+This agreement is dated 23 October 2025
+
+To: Varun Moka
+
+Stromstrasse , 36, Berlin, 10551, Germany
+
+Non-Disclosure Agreement
+
+1
+
+PURPOSE
+
+Further to our early discussions regarding the Project, we confirm that we are happy to continue 
+these discussions and to disclose further information and documents related to the Project, as 
+defined below, provided that we, that is DitchCarbon Ltd and Varun Moka (each a “
+together “
+discussed in relation to the Project confidential at all times in accordance with the terms of this 
+letter (the “
+
+”) agree to keep the Project and all information and documents disclosed or 
+
+Agreement
+
+Parties
+
+Party
+
+”).
+
+”, 
+
+2
+
+DEFINITIONS
+
+In this Agreement you will see certain references. The meaning of those references is set out 
+here:
+
+“
+Confidential Information
+not limited to:
+
+” is any and all information of any kind whatsoever and includes but is 
+
+(a)
+
+(b)
+
+any information of a confidential nature including trade secrets and commercially sensitive 
+information relating directly or indirectly to the Project;
+
+personal data about the founders, directors, employees and contractors of each Party; 
+performance information about each Party’s business (operational, technical and 
+financial); product development information (algorithms, databases, designs, plans, 
+
+1
+
+roadmaps, technology, prototypes and any intellectual property); strategy and operational 
+information (reports, plans, targets, customers, financial and performance metrics, 
+suppliers and advisors),
+
+and in each case includes analyses, compilations, summaries, forecasts, studies or other 
+documents (whether in written or electronic form) and all information and material prepared or 
+generated from such information in either human or machine readable form and whether stored 
+electronically or otherwise.
+
+“
+
+Discloser
+
+” means the Party sharing or disclosing Confidential Information to the other Party.
+
+“
+
+Project
+
+” means: Work on the Ditch Carbon platform or its related properties
+
+“
+
+Recipient
+
+” means the Party receiving Confidential Information from the Discloser.
+
+“
+Representatives
+subcontractors of each Party.
+
+” means the employees, officers, agents, consultants, advisors or 
+
+3
+
+UNDERTAKINGS OF CONFIDENTIALITY
+
+3.1
+
+3.2
+
+3.3
+
+Following the signing of this Agreement and throughout the duration of this Agreement, 
+the Recipient will keep the Confidential Information provided directly or indirectly by the 
+Discloser to the Recipient before, on or after the signing of this Agreement, secret and will 
+not, without the prior written consent of the Discloser, share or use any Confidential 
+Information in whole or in part with any third party, directly or indirectly, except for the 
+exclusive purpose of evaluating the Project and carrying out the Project should both 
+Parties agree to go ahead.
+
+The Recipient will take all steps necessary to protect the Confidential Information and keep 
+it stored securely.
+
+The Recipient may disclose the Confidential Information to its Representatives who have a 
+specific need to know the Confidential Information for the Project, provided that:
+
+(a)
+
+(b)
+
+they are bound by obligations of confidentiality to the Recipient; and
+
+the Recipient will monitor the Representatives’ compliance with the confidentiality 
+obligations, notify the Discloser of any breach thereof immediately upon the 
+discovery of the breach, and enforce the confidentiality obligations against the 
+Representatives without delay.
+
+3.4
+
+The Recipient agrees that it will be liable for the actions or omissions of the 
+Representatives in relation to the Confidential Information as if they were the actions or 
+omissions of the Recipient.
+
+4
+
+EXCLUSIONS
+
+4.1
+
+For the avoidance of doubt, Confidential Information does not include any information 
+which:
+
+(a)
+
+(b)
+
+the Recipient can adequately prove was already in their lawful possession and at 
+their free disposal before it was disclosed by the Discloser;
+
+was disclosed to the Recipient by a third party who (or which) by such disclosure did 
+not breach any obligation of confidentiality (whether contractual or otherwise) to 
+the Discloser;
+
+(c)
+
+was independently developed by the Recipient (with no reference to any 
+
+2
+
+information disclosed to it by the Discloser, whether before or after the date of this 
+Agreement);
+
+(d)
+
+is in, or comes into, the public domain, except as a result of a breach by the 
+Recipient or any Representative of any obligation of confidentiality (whether 
+contractual or otherwise),
+
+and in each case only to the extent that the Recipient provides evidence that such 
+information falls within one of paragraphs (a) to (d) above to the reasonable satisfaction of 
+the Discloser.
+
+4.2
+
+The Recipient may disclose Confidential Information if required to do so by law, or by any 
+regulatory or governmental authority of competent jurisdiction, or by any court of 
+competent jurisdiction. The Recipient will give the Discloser as much notice of the 
+disclosure as possible and take into account any reasonable requests of the Discloser in 
+relation to the timing and content of the disclosure where they are able to do so.
+
+5
+
+DURATION
+
+This Agreement will come into full force from the date it is duly signed by both Parties, and will 
+govern the Parties' rights and obligations relating to its subject matter with effect from the date 
+when any Confidential Information was first shared by either Party with the other, and the Parties 
+will continue to be bound to keep the Confidential Information secret in accordance with the 
+terms of this Agreement for a period of 2 years or until released by the Discloser formally in 
+writing, whichever occurs earlier.
+
+6
+
+RETURN OF RELEVANT INFORMATION
+
+If negotiations in connection with the Project are unsuccessful, or upon request from the 
+Discloser at any time, the Recipient will immediately return, erase or destroy all Confidential 
+Information in its possession together with any derivative works which are based on or which 
+may contain Confidential Information.
+
+7
+
+NOTICES
+
+7.1
+
+Any notice or other communication given to a Party under or in connection with this 
+Agreement will be in writing and will be delivered by hand or sent by email to the other 
+Party’s email address as notified from time to time.
+
+7.2
+
+Any notice or communication will be deemed to have been received:
+
+(a)
+
+(b)
+
+if delivered personally, at the time of delivery;
+
+if sent by email, 1 hour after the time sent unless the sender received an automated 
+message that the email has not been delivered.
+
+7.3
+
+This clause does not apply to the service of any proceedings or other documents in any 
+legal action or, where applicable, any arbitration or other method of dispute resolution.
+
+8
+
+GENERAL
+
+8.1
+
+Nothing in this Agreement constitutes any warranty or representation in respect of the 
+Confidential Information or matters contained in it. Confidential Information is provided 
+on an “
+
+” basis.
+
+as is
+
+8.2 Without prejudice to any other rights and remedies either Party may have, both Parties 
+
+3
+
+agree that the Confidential Information is valuable and that damages may not be an 
+adequate remedy for any breach of the terms set out in this Agreement. Accordingly, both 
+Parties agree that either Party will be entitled without proof of special damage to the 
+remedies of an injunction and other equitable relief for any actual or threatened breach by 
+any Party to this Agreement.
+
+8.3
+
+8.4
+
+The validity, construction and performance of this Agreement will be governed by and 
+construed in accordance with the laws of England and Wales and each Party will submit to 
+the exclusive jurisdiction of the courts of England and Wales.
+
+This Agreement contains the entire agreement between the Parties and supersedes and 
+extinguishes all previous drafts, agreements, arrangements and understandings between 
+the Parties with respect to its subject matter.
+
+4
+
+Please sign below to confirm your agreement to the terms of this Agreement.
+
+We agree to the above.
+
+Marc Munier
+for and on behalf of DitchCarbon Ltd
+
+23 October 2025
+
+I agree to the above.
+
+Varun Moka
+
+22 October 2025
+
+SeedLegals - Non-disclosure Agreement - MNDA-2-2021-11-17 d_U2whVWO8DE
+
+5
+
+

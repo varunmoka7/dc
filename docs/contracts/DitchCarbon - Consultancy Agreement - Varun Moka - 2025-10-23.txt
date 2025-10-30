@@ -1,0 +1,749 @@
+DitchCarbon Ltd
+
+Company Number 13487671
+
+167-169 Great Portland Street , London, W1W 5PF, United Kingdom
+
+This agreement is dated 23 October 2025
+
+To: Varun Moka
+
+Stromstrasse , 36, Berlin, 10551, Germany
+
+Consultancy Agreement
+
+Dear Varun,
+
+This letter (the "Agreement") records our agreement with you in relation to consultancy services to be 
+provided by you to DitchCarbon Ltd (“
+
+DitchCarbon
+
+Company
+
+”, the “
+
+”).
+
+Please counter-sign at the end of this letter.
+
+1
+
+DEFINITIONS
+
+In this Agreement unless the context requires otherwise:
+
+“
+Approved Expenses
+prior approval described in Schedule One.
+
+” means the expenses which the Consultant is permitted to claim without 
+
+“
+
+Business Property
+
+” means:
+
+(a)
+
+(b)
+
+all Materials (whatever format and wherever located), including copies, relating to the 
+business, customers, products, finances or affairs of the Company provided to or 
+produced, maintained or stored by the Consultant in connection with the Project and/or 
+delivery of the Services (excluding the Consultant's own records necessary for legal and 
+accounting compliance); and
+
+all Equipment provided to the Consultant by or on behalf of the Company, and any 
+Equipment produced by the Consultant, including prototypes, in connection with the 
+Project and/or delivery of the Services.
+
+1
+
+“
+Confidential Information
+and wherever located), including copies, whether created before or after the date of this 
+Agreement and whether marked "confidential" or not, including the Business Property and any 
+Invention.
+
+” means all information of a confidential nature (in whatever format 
+
+“
+
+Consultant
+
+” means Varun Moka of Stromstrasse , 36, Berlin, 10551, Germany.
+
+” means any and all works created by or on behalf of the Consultant in 
+
+“
+Created Works
+connection with the Project and/or delivery of the Services including any created Business 
+Property (in all cases including source code).
+
+“
+Equipment
+keys, machinery, software and tools.
+
+” means any equipment including access passes, consumables, devices, hardware, 
+
+“
+
+Fees
+
+” means the fees for the Services described in Schedule One.
+
+” means all intellectual property rights, whether registered or not, 
+
+“
+Intellectual Property Rights
+including pending applications for registration or extension of such rights, including rights to 
+inventions, copyright and related rights, moral rights, patent rights, trade marks, trade names, 
+goodwill and the right to sue for passing off, design right, rights in or to databases, rights to have 
+information kept confidential, rights in or relating to confidential information, rights in relation to 
+domain names and trade names, and all other industrial, commercial or intellectual property 
+rights (whether registered or unregistered) throughout the world and all similar or equivalent 
+rights or forms of protection which exist now or may exist in the future.
+
+” means any invention, idea, discovery and improvements, whether or not patentable 
+
+“
+Invention
+or registrable, and whether or not recorded in any medium made by the Consultant in 
+connection with the Project or the provision of the Services.
+
+” means any materials including artwork, books, correspondence, databases, designs, 
+
+“
+Materials
+diagrams, documents, information, manuals, papers, pitches, plans, records, reports, research, 
+software and specifications.
+
+“
+Moral Rights
+and the right against false attribution.
+
+” means any moral rights including the right to be identified, the right of integrity 
+
+“
+
+Project
+
+” means the project described in Schedule One.
+
+Services
+“
+in Schedule One.
+
+” means the services of the Consultant to deliver the Project, including those described 
+
+The interpretation of general words will not be restricted by words indicating a particular class or 
+particular examples.
+
+2
+
+PERIOD OF SERVICES
+
+The Consultant will provide the Services to the Company from 27 October 2025 unless and until 
+terminated by either the Consultant or the Company giving the other not less than 14 days notice 
+or otherwise terminated in accordance with the terms of this Agreement.
+
+3
+
+DUTIES WHEN PROVIDING SERVICES
+
+The Consultant will provide the Services in accordance with this Agreement and will:
+
+(a)
+
+apply such time, attention, resources and skill as may be necessary for the due and proper 
+performance of the Services to the standard to be expected of an expert supplier of 
+services similar to the Services;
+
+(b)
+
+ensure that, when providing the Services, the Consultant does not interfere with the 
+
+2
+
+(c)
+
+(d)
+
+(e)
+
+activities of the Company, its employees, agents, suppliers or customers except as 
+reasonably necessary to carry out the Services;
+
+ensure that all written Materials given by the Consultant to the Company are or were 
+accurate when given, and remain accurate and comprehensive in all material respects;
+
+act in the Company's best interests and avoid conflicts of interest and promptly notify the 
+Company of any conflict of interest which arises; and
+
+comply with all applicable laws and Company policies and procedures from time to time 
+insofar as they are relevant to the Services, including all relevant security and code of 
+conduct policies.
+
+Unless they have been specifically authorised to do so by a director of the Company in writing, 
+the Consultant will not have any authority to incur any expenditure in the name of or for the 
+account of the Company nor hold themselves out as having authority to bind the Company.
+
+With prior written approval by a director of the Company, the Consultant may appoint a suitably 
+qualified substitute to perform the Services on the Consultant's behalf (“
+case, before performing any part of the Services, the Substitute must enter into direct 
+undertakings with the Company, including with regard to confidentiality and intellectual property 
+rights. All the duties and obligations on the Consultant will apply to the Substitute, and the 
+Consultant will continue to be subject to all duties and obligations under this Agreement for the 
+duration of the appointment of the Substitute. The Company will continue to pay the Consultant 
+as set out in section 4 below and the Consultant will be responsible for all payments to the 
+Substitute.
+
+”), in which 
+
+Substitute
+
+If the Consultant is unable to provide the Services due to illness or injury, the Consultant must 
+advise the Company as soon as reasonably practicable, and the Company is entitled to adjust the 
+Fees payable under section 4 to take account of any period the Consultant or Substitute is unable 
+to provide the Services.
+
+4
+
+FEES AND EXPENSES
+
+Provided that the Services are performed in accordance with this Agreement, the Company will 
+pay the Consultant the Fees and Approved Expenses.
+
+The Consultant will submit an invoice with all information necessary to evidence that the Services 
+have been provided in accordance with this Agreement and the corresponding amount payable 
+(plus VAT, if applicable).
+
+The Company will pay each valid invoice submitted by the Consultant within 7 days of receipt.
+
+The Company will reimburse the Approved Expenses subject to production of receipts or other 
+appropriate evidence of payment.
+
+The Company will also reimburse all other reasonable expenses properly and necessarily 
+incurred by the Consultant in the course of the Services, subject to production of receipts or 
+other appropriate evidence of payment and compliance with the Company's expenses policy 
+(including any applicable prior approval rules).
+
+Payment in full or in part of the Fees (or any other sums) claimed under section 4 will be without 
+prejudice to any claims or rights of the Company against the Consultant in respect of the 
+provision of the Services.
+
+5
+
+OTHER ACTIVITIES
+
+3
+
+Nothing in this Agreement will prevent the Consultant from being engaged, concerned or having 
+any financial interest in any capacity in any other business, trade, profession or occupation 
+during the period of the Services provided that:
+
+(a)
+
+(b)
+
+such activity does not cause a breach of any of the Consultant's obligations under this 
+Agreement;
+
+The Consultant will not engage in any such activity if it relates to a business which is similar 
+to or in any way competitive with the business of the Company in connection with services 
+connected to a project similar to the Project without the prior written consent of a director 
+of the Company.
+
+6
+
+ASSIGNMENT AND INVENTIONS
+
+All Intellectual Property Rights in the Created Works and the Inventions will vest in the Company 
+upon payment of the associated invoice and all right, title and interest to the Created Works and 
+the Inventions and Intellectual Property Rights therein anywhere in the world will be the property 
+of the Company.
+
+The Consultant hereby absolutely and with full title guarantee assigns to the Company, by way of 
+present assignment of present and future rights, title and interest, all Intellectual Property Rights 
+in and to any and all Created Works and Inventions (“
+
+Assigned Rights
+
+”).
+
+This assignment includes the right to bring and defend any claim or cause of action arising from 
+ownership of any of the Assigned Rights whether occurring before, on, or after the date of this 
+Agreement. Insofar as they do not vest automatically by operation of law or under this 
+assignment, the Consultant holds legal title in these Intellectual Property Rights, Created Works 
+and Inventions on trust for the Company.
+
+To the extent that any future Assigned Rights can be assigned under this section they are so 
+assigned. To the extent that they cannot by operation of law be so assigned, the Consultant 
+agrees to assign them to the Company on their coming into existence.
+
+The Consultant will notify the Company in writing of all Inventions promptly on their creation.
+
+The Consultant will whenever requested to do so by the Company and in any event on the 
+termination of this Agreement, promptly deliver to the Company all Equipment and Materials 
+recording or relating to any part of the Created Works and the process of their creation which are 
+in their possession, custody or power (excluding Equipment and Materials used by the 
+Consultant in the ordinary course of their business).
+
+The Consultant will not register or attempt to register any of the Intellectual Property Rights in 
+the Created Works, nor any of the Inventions, unless requested to do so in writing by a director of 
+the Company.
+
+The Consultant agrees at the Company's cost to do all things which are necessary or desirable for 
+the Company to obtain for itself or its nominees the full benefit of this assignment, including to 
+cooperate fully in any action by the Company to enforce its rights against a third party, including, 
+at the Company’s reasonable request, to take action against the third party.
+
+7
+
+NON-INFRINGEMENT
+
+The Consultant represents, warrants and undertakes that:
+
+(a)
+
+only the Consultant will undertake the services to create any Created Works (and if anyone 
+else does, the Consultant will obtain equivalent assignment(s) to this Agreement);
+
+(b)
+
+none of the Created Works will copy wholly or substantially from any other work or 
+
+4
+
+(c)
+
+(d)
+
+(e)
+
+material and the use or exploitation of the Created Works will not in any way violate or 
+infringe any rights of any third party;
+
+where any Created Works contain licensed Equipment or Materials, such licenses will be 
+either (i) on an open-source basis or (ii) on a world-wide, perpetual, irrevocable and royalty-
+free basis, and in each case will allow the Company to use and commercialise any Created 
+Works on an uninhibited and world-wide commercial basis;
+
+there are no claims (actual or threatened) that the Created Works or any part of them 
+infringe the Intellectual Property Rights of any third party; and
+
+The Consultant is the sole owner of the Assigned Rights, free of any encumbrances 
+including any security interest, equity, claim, restriction, reservation, conflicting claim of 
+ownership or any other encumbrance of any nature whatsoever (whether or not 
+perfected) and is entitled to enter into this Agreement and has not previously assigned any 
+of the Assigned Rights or granted any licence to any of the Assigned Rights to any third 
+party or given any permission to any third party to use any of the Assigned Rights or 
+otherwise has no obligations to any third parties which are inconsistent with the rights and 
+obligations set out in this Agreement and the Consultant is unaware of any use by any 
+third party of the Created Works.
+
+8
+
+MORAL RIGHTS
+
+The Consultant waives absolutely and irrevocably any Moral Rights in any of the Assigned Rights.
+
+9
+
+CONFIDENTIAL INFORMATION AND BUSINESS PROPERTY
+
+All Business Property remains the property of the Company.
+
+The Consultant will not (except in the proper course of their duties), either during term of this 
+Agreement or at any time afterwards, use or disclose to any third party (and will use their best 
+endeavours to prevent the publication and disclosure of) any Confidential Information. This 
+restriction does not apply to:
+
+(a)
+
+(b)
+
+any use or disclosure authorised by the Company or as required by law; or
+
+any information which is already in, or comes into, the public domain otherwise than 
+through the Consultant's unauthorised disclosure.
+
+The Consultant will promptly on request return to the Company all and any Business Property in 
+their possession and/or control.
+
+10
+
+DATA PROTECTION
+
+10.1 Unless the context otherwise requires, the terms “
+
+Special Category 
+” will have the meanings given to them in the United Kingdom General Data 
+
+Personal Data
+Protection Regulation, the Data Protection Act 2018 and any similar, analogous or 
+replacement legislation.
+
+Personal Data
+
+” and “
+
+10.2 Personal Data and Special Category Personal Data relating to you (including sensitive 
+
+personal data such as medical details and details of gender, race and ethnic origin) may, to 
+the extent that it is reasonably necessary, in connection with your service or the business 
+of the Company:
+
+(a)
+
+be collected, stored or held (in hard copy and computer readable form) and/or 
+processed by the Company; and
+
+(b)
+
+be disclosed or transferred to:
+
+5
+
+(i)
+
+employees or workers of the Company or any other group company and 
+their employees or workers;
+
+(ii)
+
+insurers, bankers, professional advisers such as lawyers and accountants;
+
+(iii)
+
+any potential buyer, investor or lender of the Company;
+
+(iv)
+
+(v)
+
+any other persons as may be reasonably necessary or as authorised by the 
+Company; and
+
+as otherwise required or permitted by law, as set out in, and for the purposes 
+set out in, the Company's privacy policy.
+
+10.3 The Company may process your Personal Data and Special Category Personal Data for a 
+
+number of legitimate business purposes, including but not limited to:
+
+(a)
+
+(b)
+
+(c)
+
+(d)
+
+administering and maintaining personnel and/or supplier records;
+
+due diligence pertaining to acquisition, merger, and equity and debt financing of the 
+Company;
+
+providing information to governmental and quasi-governmental bodies; and
+
+enabling equal opportunity monitoring and compliance.
+
+10.4 With regard to the transfers referred to in clause 10.2 above, this may involve transfer of 
+such data both within and outside the United Kingdom, and in all cases the Company will 
+take reasonable steps to ensure that your Personal Data and Special Category Personal 
+Data continues to be adequately protected.
+
+10.5 You will comply with the Company’s data protection policy when processing personal data 
+relating to any employee, worker, customer, client, supplier or agent of the Company.
+
+10.6 Each Party will, at its own expense, ensure that it complies with and where necessary 
+
+assists the other party to comply with the requirements of all legislation and regulatory 
+requirements in force from time to time relating to the use of personal data, including 
+(without limitation) (i) any data protection legislation from time to time in force in the UK 
+including the Data Protection Act 2018 and any successor legislation; and (ii) for so long as 
+and to the extent that the law of the EU has legal effect in the UK, the General Data 
+Protection Regulation ((EU) 2016/679) and any other directly applicable EU regulation 
+relating to privacy. This clause is in addition to, and does not reduce, remove or replace, a 
+party's obligations arising from such requirements.
+
+10.7 The Parties will enter into a separate data sharing or processing agreement if required to 
+
+do so under the relevant data protection legislation in relation to the data processed or 
+shared during the term of this agreement.
+
+11
+
+TERMINATION
+
+Notwithstanding section 2, the Company may terminate this Agreement with immediate effect 
+without notice and without any liability to make any further payment to the Consultant (other 
+than in respect of amounts accrued before the termination date) if at any time:
+
+(a)
+
+(b)
+
+The Consultant commits any gross misconduct affecting the business of the Company;
+
+The Consultant commits any serious or repeated breach or non-observance of any of the 
+provisions of this Agreement or refuses or neglects to comply with any reasonable and 
+
+6
+
+lawful directions of the Company;
+
+(c)
+
+(d)
+
+(e)
+
+(f)
+
+The Consultant is convicted of any criminal offence (other than an offence under any road 
+traffic legislation in the United Kingdom or elsewhere for which a fine or non-custodial 
+penalty is imposed);
+
+The Consultant is, in the reasonable opinion of the Company, negligent or incompetent in 
+the performance of the Services;
+
+The Consultant makes any arrangement with or for the benefit of their creditors or is 
+declared bankrupt or has a county court administration order made against them under 
+the County Court Act 1984;
+
+The Consultant commits any fraud or dishonesty or acts in any manner which in the 
+reasonable opinion of the Company brings or is likely to bring the Consultant or the 
+Company into disrepute or is materially adverse to the interests of the Company; or
+
+(g)
+
+The Consultant commits a serious breach of the policies and procedures of the Company.
+
+The rights of the Company under this section 11 are without prejudice to any other rights that it 
+might have at law.
+
+12
+
+OBLIGATIONS ON TERMINATION
+
+The Consultant will immediately return any Business Property.
+
+The Consultant will irretrievably delete any information relating to the business of the Company 
+stored on any magnetic or optical disk or memory, and all matter derived from such sources 
+which is in the Consultant's possession or under the Consultant's control outside the premises or 
+computer systems of the Company.
+
+Upon completion, the Consultant will provide a signed statement that they have complied fully 
+with their obligations under this section 12.
+
+If reasonably requested by the Company within 30 days following the termination of this 
+Agreement for whatever reason, the Consultant will at their cost
+
+(a)
+
+(b)
+
+provide all reasonable assistance to the Company to ensure an orderly handover of the 
+Services to a successor contractor or employee; and
+
+ensure that the handover is carried out with the minimum inconvenience and disruption 
+to the Company and its business.
+
+13
+
+POST-TERMINATION RESTRICTION
+
+By countersignature of this Agreement and in consideration for the payment you receive under 
+the terms of this Agreement, you agree that, in order to protect the confidential information, 
+trade secrets and business connections of the Company to which you have access as a result of 
+your appointment, you will not (without the previous consent in writing of the Company), during 
+the term of this Agreement and for the period of 6 months immediately after the termination of 
+this Agreement, whether as principal or agent and whether alone or jointly with any other 
+person, or as a director, manager, partner, shareholder, employee or consultant of, carry on or 
+be engaged, concerned or interested in any business which is (or intends to be) in competition 
+with any business being carried on by the Company.
+
+14
+
+STATUS
+
+7
+
+The Consultant will be an independent contractor and nothing in this Agreement will render the 
+Consultant an employee, worker, agent or partner of the Company and the Consultant will not 
+hold themselves out as such.
+
+The Consultant confirms that they will be personally fully responsible for
+
+(a)
+
+(b)
+
+any taxation whatsoever arising from or made in connection with the performance of the 
+Services, where such recovery is not prohibited by law; and
+
+any employment-related claim or any claim based on worker status (including reasonable 
+costs and expenses) brought by the Consultant or any Substitute against the Company 
+arising out of or in connection with the provision of the Services, except where such claim 
+is as a result of any act or omission of the Company.
+
+15
+
+NOTICES
+
+(a)
+
+Any notice or other communication given to a party under or in connection with this 
+Agreement will be in writing and will be delivered by hand or sent by email to the other 
+party’s email address as notified from time to time.
+
+(b)
+
+Any notice or communication will be deemed to have been received:
+
+(i)
+
+(ii)
+
+if delivered personally, at the time of delivery;
+
+if sent by email, 1 hour after the time sent unless the sender received an automated 
+message that the email has not been delivered.
+
+(c)
+
+This clause does not apply to the service of any proceedings or other documents in any 
+legal action or, where applicable, any arbitration or other method of dispute resolution.
+
+16
+
+ENTIRE AGREEMENT AND PRE-CONTRACTUAL STATEMENTS
+
+This Agreement is the entire agreement between the Consultant and the Company relating to the 
+Services and each agrees that:
+
+(a)
+
+(b)
+
+(c)
+
+(unless specifically stated otherwise) they supersede any previous agreement or 
+understanding relating to them;
+
+in entering into this Agreement neither the Consultant nor the Company has relied on any 
+pre-contractual statement; and
+
+the only remedy available to it/them or arising out of or in connection with any pre-
+contractual statement will be for breach of contract.
+
+Nothing in this Agreement will, however, operate to limit or exclude any liability for fraud.
+
+17
+
+THIRD PARTY RIGHTS
+
+Except as expressly provided elsewhere in this Agreement, a person who is not a party to this 
+Agreement will not have any rights under the Contracts (Rights of Third Parties) Act 1999 to 
+enforce any term of this Agreement.
+
+The rights of the parties to terminate, rescind or agree any variation, waiver or settlement under 
+this Agreement are not subject to the consent of any other person.
+
+18
+
+GENERAL
+
+8
+
+This Agreement may only be varied by a document signed by both the Consultant and the 
+Company (or their authorised representatives).
+
+No failure or delay by the Consultant and the Company to exercise any right or remedy, or any 
+partial exercise of any right or remedy, under this Agreement will waive that or any other right or 
+remedy.
+
+This Agreement may be executed in any number of counterparts.
+
+The validity, construction and performance of this Agreement will be governed by and construed 
+in accordance with the laws of England and Wales and each of the Consultant and the Company 
+irrevocably agree to submit to the exclusive jurisdiction of the courts of England and Wales over 
+any claim, dispute or matter arising under or in connection with this Agreement.
+
+19
+
+ADDITIONAL ITEMS
+
+Note:
+- The salary here is quoted in GBP due to restrictions in the Seed Legals platform, but the 
+agreement is for a monthly payment at the rate of 40k euro annually. Payment will be made in 
+euros unless otherwise agreed.
+- Work expectations are 40 hours per week.
+
+9
+
+SCHEDULE ONE
+SERVICES & PAYMENT
+
+Start Date
+
+27 October 2025
+
+Term
+
+Project
+
+Services
+
+From 27 October 2025 until terminated by 14 days notice or otherwise in 
+accordance with the Agreement.
+
+Supporting the customer base of Ditch Carbon, a Scope 3 data and 
+analytics platform dedicated to helping enterprises accelerate their Scope 
+3 emissions reduction. 
+
+The Consultant will provide the following services to the Company in 
+connection with the Project:
+
+Support service to help customers and prospects use the DitchCarbon 
+platform, including preparing deliverables and guiding their use of the 
+platform
+
+Fee
+
+£2,897 per month excluding any applicable VAT
+
+Approved Expenses
+
+It's okay to expense a personal ChatGPT or similar subscription. Any 
+expenses for travel or workplace should be requested and approved in 
+advance. 
+
+10
+
+SIGNATURES
+
+Please indicate your acceptance of these terms and conditions by signing below.
+
+We agree to the above.
+
+Marc Munier
+for and on behalf of DitchCarbon Ltd
+
+23 October 2025
+
+I agree to the above.
+
+Varun Moka
+
+22 October 2025
+
+SeedLegals - Consultancy Agreement - COAG-8-2022-10-08 d_K83S8S9zcB
+
+11
+
+
