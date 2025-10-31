@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Quick helper script to view/generate today's tasks
+# Usage:
+#   ./scripts/today          - View today's tasks
+#   ./scripts/today generate - Generate today's tasks
+#   ./scripts/today edit     - Edit today's tasks
+
+set -euo pipefail
+
+PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+TODAY=$(date +%Y-%m-%d)
+TASK_FILE="${PROJECT_ROOT}/docs/work/tasks/${TODAY}-tasks.md"
+
+case "${1:-view}" in
+    generate|gen|g)
+        "${PROJECT_ROOT}/scripts/generate-daily-tasks.sh" "$TODAY"
+        ;;
+    edit|e)
+        if [ ! -f "$TASK_FILE" ]; then
+            echo "Task file doesn't exist. Generating..."
+            "${PROJECT_ROOT}/scripts/generate-daily-tasks.sh" "$TODAY"
+        fi
+        ${EDITOR:-vim} "$TASK_FILE"
+        ;;
+    view|v|*)
+        if [ ! -f "$TASK_FILE" ]; then
+            echo "❌ No task file for today. Run: ./scripts/today generate"
+            exit 1
+        fi
+        cat "$TASK_FILE"
+        ;;
+esac
