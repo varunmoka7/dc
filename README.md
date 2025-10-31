@@ -4,7 +4,28 @@
 
 This repository serves as the **private research workspace** for a Scope 3 Executive consultant working with Ditch Carbon on a freelance consultancy contract.
 
-**⚠️ IMPORTANT**: This repository contains confidential and proprietary information. **DO NOT** commit sensitive documents to version control. All contracts, company documents, and work materials are protected by `.gitignore`.
+**Multi-Laptop Sync Enabled**: This repository is configured for seamless synchronization across multiple laptops via GitHub.
+
+## 🚀 Quick Start
+
+### First Time Setup (Second Laptop)
+See **[docs/SETUP-OTHER-LAPTOP.md](docs/SETUP-OTHER-LAPTOP.md)** for complete setup instructions.
+
+### Daily Usage
+```bash
+# Start work session
+./sync-start.sh
+
+# Work normally, then quick sync
+./quick-sync.sh
+
+# End work session
+./sync-end.sh "Today's summary"
+```
+
+**Quick Reference**: See **[SYNC-QUICKREF.md](SYNC-QUICKREF.md)** for commands and troubleshooting.
+
+**Full Guide**: See **[docs/SYNC-WORKFLOW.md](docs/SYNC-WORKFLOW.md)** for complete workflow documentation.
 
 ## Purpose
 
