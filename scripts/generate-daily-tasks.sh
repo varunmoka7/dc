@@ -128,23 +128,15 @@ else
     touch "$TEMP_INTERACTION_TIMELINE"
 fi
 
-# --- Extract from team interaction files ---
-if [ -d "$TEAM_INTERACTIONS_DIR" ]; then
-    find "$TEAM_INTERACTIONS_DIR" -type f -name "*.md" -exec grep -h "^- \[ \]" {} \; 2>/dev/null | sed 's/^- \[ \] /- [ ] /' | sort -u > "$TEMP_TEAM_INTERACTIONS" || touch "$TEMP_TEAM_INTERACTIONS"
-    TEAM_COUNT=$(wc -l < "$TEMP_TEAM_INTERACTIONS" | tr -d ' ')
-    log_success "Extracted ${TEAM_COUNT} unique tasks from team interactions"
-else
-    touch "$TEMP_TEAM_INTERACTIONS"
-fi
+# --- Skip team interaction files (those are other people's tasks) ---
+log_info "Skipping team interactions (other people's action items)"
+touch "$TEMP_TEAM_INTERACTIONS"
+TEAM_COUNT=0
 
-# --- Extract from customer project files ---
-if [ -d "$CUSTOMERS_DIR" ]; then
-    find "$CUSTOMERS_DIR" -type f -name "*.md" -exec grep -h "^- \[ \]" {} \; 2>/dev/null | sed 's/^- \[ \] /- [ ] /' | sort -u > "$TEMP_CUSTOMER_PROJECTS" || touch "$TEMP_CUSTOMER_PROJECTS"
-    CUSTOMER_COUNT=$(wc -l < "$TEMP_CUSTOMER_PROJECTS" | tr -d ' ')
-    log_success "Extracted ${CUSTOMER_COUNT} unique tasks from customer projects"
-else
-    touch "$TEMP_CUSTOMER_PROJECTS"
-fi
+# --- Skip customer project files (shared tasks, not personal) ---
+log_info "Skipping customer projects (shared team tasks)"
+touch "$TEMP_CUSTOMER_PROJECTS"
+CUSTOMER_COUNT=0
 
 # --- Categorize high priority tasks ---
 # Look for keywords: urgent, ASAP, due today, priority, critical
