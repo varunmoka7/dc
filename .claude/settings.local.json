@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__byterover-mcp__byterover-retrieve-knowledge",
+      "Bash(mkdir:*)",
+      "mcp__byterover-mcp__byterover-store-knowledge"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
