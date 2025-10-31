@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice VM-2025-001 - Varun Moka</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 40px 20px;
+        }
+
+        .invoice-container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: white;
+            padding: 60px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            color: #2563eb;
+            font-weight: 600;
+        }
+
+        .invoice-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .from, .to {
+            padding: 20px;
+            background: #f8fafc;
+            border-radius: 8px;
+        }
+
+        .from h2, .to h2 {
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #64748b;
+            margin-bottom: 12px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .from p, .to p {
+            margin-bottom: 4px;
+            color: #334155;
+        }
+
+        .from strong, .to strong {
+            color: #1e293b;
+            font-weight: 600;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 40px;
+            padding: 20px;
+            background: #eff6ff;
+            border-radius: 8px;
+            border-left: 4px solid #2563eb;
+        }
+
+        .info-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+        }
+
+        .info-label {
+            font-weight: 600;
+            color: #1e40af;
+        }
+
+        .info-value {
+            color: #1e293b;
+            font-weight: 500;
+        }
+
+        .services {
+            margin-bottom: 30px;
+        }
+
+        .services h2 {
+            font-size: 18px;
+            color: #1e293b;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .service-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        .service-table thead {
+            background: #1e293b;
+            color: white;
+        }
+
+        .service-table th {
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .service-table td {
+            padding: 20px 15px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .service-table tbody tr:hover {
+            background: #f8fafc;
+        }
+
+        .description {
+            font-weight: 500;
+            color: #1e293b;
+            margin-bottom: 8px;
+        }
+
+        .calculation {
+            font-size: 13px;
+            color: #64748b;
+            line-height: 1.5;
+        }
+
+        .period {
+            color: #475569;
+            font-size: 14px;
+        }
+
+        .amount {
+            font-weight: 600;
+            color: #1e293b;
+            font-size: 16px;
+        }
+
+        .summary {
+            margin-left: auto;
+            width: 350px;
+            margin-top: 30px;
+        }
+
+        .summary-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 20px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .summary-row.total {
+            background: #1e293b;
+            color: white;
+            font-weight: 600;
+            font-size: 18px;
+            border-radius: 8px;
+            margin-top: 10px;
+            border: none;
+        }
+
+        .payment-terms {
+            margin-top: 40px;
+            padding: 25px;
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            border-radius: 8px;
+        }
+
+        .payment-terms h3 {
+            color: #92400e;
+            margin-bottom: 12px;
+            font-size: 16px;
+        }
+
+        .payment-terms ul {
+            list-style: none;
+            color: #78350f;
+        }
+
+        .payment-terms li {
+            padding: 6px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .payment-terms li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #f59e0b;
+            font-weight: bold;
+        }
+
+        .notes {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8fafc;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .notes h3 {
+            color: #1e293b;
+            margin-bottom: 12px;
+            font-size: 16px;
+        }
+
+        .notes p {
+            color: #475569;
+            margin-bottom: 12px;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        .calculation-box {
+            background: white;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 15px;
+            border: 1px solid #cbd5e1;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            color: #334155;
+        }
+
+        .calculation-box div {
+            padding: 4px 0;
+        }
+
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+            padding-top: 30px;
+            border-top: 2px solid #e2e8f0;
+            color: #64748b;
+            font-size: 14px;
+        }
+
+        .footer strong {
+            color: #1e293b;
+        }
+
+        .bank-details {
+            margin-top: 30px;
+            padding: 20px;
+            background: #ecfdf5;
+            border-left: 4px solid #10b981;
+            border-radius: 8px;
+        }
+
+        .bank-details h3 {
+            color: #065f46;
+            margin-bottom: 12px;
+            font-size: 16px;
+        }
+
+        .bank-details p {
+            color: #064e3b;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .invoice-container {
+                box-shadow: none;
+                padding: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="invoice-container">
+        <div class="header">
+            <h1>INVOICE</h1>
+        </div>
+
+        <div class="invoice-details">
+            <div class="from">
+                <h2>Invoice From</h2>
+                <p><strong>Varun Moka</strong></p>
+                <p>Stromstrasse, 36</p>
+                <p>Berlin, 10551</p>
+                <p>Germany</p>
+                <p style="margin-top: 12px;">Email: <strong>[Your email]</strong></p>
+                <p>VAT: <strong>[If applicable]</strong></p>
+            </div>
+
+            <div class="to">
+                <h2>Invoice To</h2>
+                <p><strong>DitchCarbon Ltd</strong></p>
+                <p>Company Number: 13487671</p>
+                <p>167-169 Great Portland Street</p>
+                <p>London, W1W 5PF</p>
+                <p>United Kingdom</p>
+                <p style="margin-top: 12px;">Email: <strong>finance@ditchcarbon.com</strong></p>
+            </div>
+        </div>
+
+        <div class="info-grid">
+            <div class="info-item">
+                <span class="info-label">Invoice Number:</span>
+                <span class="info-value">VM-2025-001</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Invoice Date:</span>
+                <span class="info-value">31 October 2025</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Due Date:</span>
+                <span class="info-value">7 November 2025</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Currency:</span>
+                <span class="info-value">EUR (€)</span>
+            </div>
+        </div>
+
+        <div class="services">
+            <h2>Services Provided</h2>
+            <table class="service-table">
+                <thead>
+                    <tr>
+                        <th style="width: 45%;">Description</th>
+                        <th style="width: 25%;">Period</th>
+                        <th style="width: 15%;">Calculation</th>
+                        <th style="width: 15%; text-align: right;">Amount (EUR)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="description">Consulting Services</div>
+                            <div class="calculation">
+                                Supporting DitchCarbon customer base<br>
+                                (Scope 3 data and analytics platform)<br><br>
+                                <strong>Pro-rated based on working days:</strong><br>
+                                • Monthly rate: €3,333.33<br>
+                                • Total working days in October: 23<br>
+                                • Days worked: 5 (Oct 27-31)<br>
+                                • Pro rata: 5/23 = 21.74%
+                            </div>
+                        </td>
+                        <td class="period">
+                            27 October 2025<br>
+                            31 October 2025<br><br>
+                            <strong>(5 working days)</strong>
+                        </td>
+                        <td>
+                            €3,333.33<br>
+                            ×<br>
+                            21.74%
+                        </td>
+                        <td class="amount" style="text-align: right;">
+                            €724.65
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="summary">
+            <div class="summary-row">
+                <span>Subtotal</span>
+                <span>€724.65</span>
+            </div>
+            <div class="summary-row">
+                <span>VAT</span>
+                <span>€0.00</span>
+            </div>
+            <div class="summary-row total">
+                <span>Total Amount Due</span>
+                <span>€724.65</span>
+            </div>
+        </div>
+
+        <div class="payment-terms">
+            <h3>Payment Terms</h3>
+            <ul>
+                <li><strong>Payment Due:</strong> 7 days from invoice date (7 November 2025)</li>
+                <li><strong>Reference:</strong> Consultancy Agreement dated 23 October 2025</li>
+                <li><strong>Services:</strong> Performed in accordance with Schedule One</li>
+            </ul>
+        </div>
+
+        <div class="bank-details">
+            <h3>Bank Details</h3>
+            <p><strong>[Add your bank account details here for payment]</strong></p>
+            <p>Account Name: [Your name]</p>
+            <p>Bank Name: [Your bank]</p>
+            <p>IBAN: [Your IBAN]</p>
+            <p>BIC/SWIFT: [Your BIC/SWIFT]</p>
+        </div>
+
+        <div class="notes">
+            <h3>Notes</h3>
+            <p>This invoice covers the initial partial month of services under the Consultancy Agreement dated 23 October 2025. Pro rata calculation based on working days methodology as confirmed by Alex Rudnicki on 31 October 2025.</p>
+
+            <p><strong>Calculation breakdown:</strong></p>
+            <div class="calculation-box">
+                <div>Annual rate: €40,000</div>
+                <div>Monthly rate: €40,000 ÷ 12 = €3,333.33</div>
+                <div>October working days: 23 (excluding weekends)</div>
+                <div>Days worked: 5 (27-31 October)</div>
+                <div>Pro rata percentage: 5 ÷ 23 = 21.74%</div>
+                <div><strong>Amount: €3,333.33 × 21.74% = €724.65</strong></div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>Thank you for your business!</strong></p>
+            <p>Please remit payment to the bank details provided above within 7 days of invoice date.</p>
+        </div>
+    </div>
+</body>
+</html>
