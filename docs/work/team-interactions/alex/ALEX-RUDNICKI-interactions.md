@@ -1660,3 +1660,62 @@
 23. **First Pfizer call:** Building foundation for ongoing Pfizer relationship
 
 ---
+
+## Email: Pro Rata Invoice Calculation Clarification - October 31, 2025
+
+**Type:** Email - Invoice Calculation Method
+**From:** Alex Rudnicki
+**To:** Varun Moka
+**Date:** October 31, 2025
+**Time:** 5:20 PM
+**Subject:** Pro Rata Calculation Methodology
+
+### Email Content
+
+"Hi Moka,
+
+I would calculate pro rata by working days. There are 23 working days in October, and you worked 5, so 5/23 = 21.74% of your monthly (€40k/12 = €3333.33), which results in €724.65.
+
+Does that make sense?"
+
+### Key Information Extracted
+
+**Calculation Method: Working Days (NOT Calendar Days)**
+- Total working days in October: 23
+- Days worked: 5 (Oct 27-31)
+- Pro rata percentage: 5/23 = 21.74%
+
+**Correct Calculation:**
+- Monthly rate: €40,000/12 = €3,333.33
+- Pro rata amount: €3,333.33 × 21.74% = **€724.65**
+
+### Previous Calculation (INCORRECT - Calendar Days Method)
+- Total calendar days in October: 31
+- Days worked: 5 (Oct 27-31)
+- Pro rata percentage: 5/31 = 16.13%
+- Incorrect amount: €3,333.33 × 16.13% = €537.83
+
+### Correction Required
+
+**Action:** Update invoice to reflect working days calculation
+- Old amount: €537.83 ❌
+- Correct amount: **€724.65** ✅
+- Difference: +€186.82
+
+### Standard Going Forward
+
+**For all future pro rata calculations:**
+- Always use **working days** (excluding weekends/holidays)
+- Formula: (Days worked / Total working days in month) × Monthly rate
+- Do NOT use calendar days
+
+### Outstanding Action Items
+
+**Varun Moka:**
+- [ ] Update October invoice from €537.83 to €724.65
+- [ ] Submit corrected invoice to finance@ditchcarbon.com
+- [ ] Apply working days method for all future pro rata calculations
+
+**Date:** October 31, 2025
+
+---

@@ -28,18 +28,29 @@
 
 ### Amount Calculation
 
-**Option 1: EUR Basis (Recommended - per contract note)**
-- Annual rate: €40,000
-- Monthly: €3,333.33
-- For 5 days in October (22 working days):
-  - **Amount:** €3,333.33 × (5 ÷ 22) = **€757.58**
-  - Add VAT if applicable (depends on your VAT status)
+**✅ CORRECT METHOD: Working Days (Confirmed by Alex - Oct 31, 2025)**
 
-**Option 2: GBP Basis (if using Schedule One rate)**
+**EUR Basis (Recommended - per contract note):**
+- Annual rate: €40,000
+- Monthly: €40,000 ÷ 12 = €3,333.33
+- **Total working days in October:** 23 (excluding weekends)
+- **Days worked:** 5 (Oct 27-31)
+- **Pro rata percentage:** 5 ÷ 23 = 21.74%
+- **Amount:** €3,333.33 × 21.74% = **€724.65**
+- Add VAT if applicable (depends on your VAT status)
+
+**GBP Basis (if using Schedule One rate):**
 - Monthly: £2,897
-- For 5 days in October (22 working days):
-  - **Amount:** £2,897 × (5 ÷ 22) = **£658.41**
-  - Add VAT if applicable (depends on your VAT status)
+- **Total working days in October:** 23
+- **Days worked:** 5
+- **Pro rata percentage:** 5 ÷ 23 = 21.74%
+- **Amount:** £2,897 × 21.74% = **€630.02**
+- Add VAT if applicable (depends on your VAT status)
+
+**❌ INCORRECT METHOD: Calendar Days (DO NOT USE)**
+- Using total calendar days (31) instead of working days (23)
+- This would result in incorrect lower amount
+- Always use working days per Alex's guidance
 
 ### Payment Terms
 - **Payment Terms:** 7 days from invoice date (per contract section 4)
@@ -51,16 +62,16 @@
 **Example line item:**
 ```
 Description: Consulting services - Support service for DitchCarbon platform customers
-Period: 27 October 2025 - 31 October 2025 (5 days)
-Rate: Pro-rated from monthly retainer
+Period: 27 October 2025 - 31 October 2025 (5 working days)
+Rate: Pro-rated from monthly retainer (5/23 working days)
 Quantity: 5 days
-Unit Price: [€757.58 ÷ 5 = €151.52 per day] OR [Single line: €757.58]
-Total: €757.58
+Unit Price: [€724.65 ÷ 5 = €144.93 per day] OR [Single line: €724.65]
+Total: €724.65
 ```
 
 OR single line:
 ```
-Consulting services (27 Oct - 31 Oct 2025, 5 days): €757.58
+Consulting services (27 Oct - 31 Oct 2025, 5 working days of 23 in October): €724.65
 ```
 
 ### Notes Section
