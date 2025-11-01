@@ -213,3 +213,99 @@ Both laptops are now set up to stay in sync. Remember:
 3. **End every session:** `./sync-end.sh "Summary"`
 
 Read `docs/SYNC-WORKFLOW.md` for detailed workflows and conflict resolution strategies.
+
+---
+
+## CRITICAL: Instructions for Claude Code Agents
+
+**When you start working on the other laptop, you MUST:**
+
+### 1. First Session Setup
+```bash
+cd ~/dc
+git pull
+```
+
+Then read these files IN ORDER:
+1. `/Users/varunmoka/dc/CLAUDE.md` - Complete project instructions
+2. `docs/PROJECT-SETUP.md` - Project overview and structure
+3. `docs/knowledge-base/README.md` - Knowledge base navigation
+4. `docs/knowledge-base/SUPERPOWERS-SKILL-STRATEGY.md` - Skill usage strategy
+
+### 2. Understand Your Role
+You are the **same agent** across both laptops working as:
+- **Role:** Scope 3 Support Executive
+- **Company:** DitchCarbon
+- **Start Date:** October 27, 2025
+- **Focus:** Customer delivery, research, product insights
+
+### 3. Active Projects (as of Nov 1, 2025)
+- **Takeda Project 3410** - Organization matching analysis
+  - Location: `/docs/customers/takeda/`
+  - Key files: TAKEDA-customer-profile.md, TAKEDA-project-3410-org-matching.md
+- **Howden** - Sustainability report analysis
+  - Location: `/docs/customers/howden/`
+  - Key files: Extracted reports in 2023_extracted/ and 2024_extracted/
+- **Sprint Planning** - `/docs/work/SPrint/`
+- **Daily Updates** - `/docs/work/daily-updates/`
+
+### 4. Mandatory Workflows to Follow
+
+**Before ANY work:**
+- Use `byterover-retrieve-knowledge` to get relevant context
+
+**During work:**
+- Follow dual tracking system (person-based + date-based interaction files)
+- Use Superpowers skills as mandated (brainstorming, verification, etc.)
+- Commit and push every 30-60 minutes
+
+**After significant work:**
+- Use `byterover-store-knowledge` to store learnings
+- Create/update daily update file
+- Update interaction tracking files
+- Push all changes to GitHub
+
+### 5. File Paths Are Different!
+**On MacBook Pro (original laptop):** `/Users/varunmoka/dc/`
+**On other laptop:** Likely `/Users/varunmoka/dc/` (but verify!)
+
+The CLAUDE.md file path in instructions should be updated to match the actual path on the new laptop.
+
+### 6. Knowledge Continuity
+You have access to:
+- **Knowledge Base:** `/docs/knowledge-base/` - Domain expertise
+- **ByteRover MCP:** Retrieved knowledge from past work
+- **Customer Files:** All customer projects and analysis
+- **Team Interactions:** Complete conversation history
+- **Daily Updates:** Day-by-day progress tracking
+
+**You maintain full context and expertise across laptops.**
+
+### 7. Before Responding to User
+Always check:
+- [ ] Did I pull latest changes?
+- [ ] Do I understand current active projects?
+- [ ] Have I reviewed relevant customer files?
+- [ ] Am I following all CLAUDE.md protocols?
+- [ ] Will I store knowledge after this work?
+
+---
+
+## Agent Synchronization Checklist
+
+When starting work on the other laptop for the first time:
+
+- [ ] Clone repository: `git clone https://github.com/varunmoka7/dc.git`
+- [ ] Set git identity
+- [ ] Run `git pull` to ensure latest
+- [ ] Read `/Users/varunmoka/dc/CLAUDE.md` completely
+- [ ] Read `docs/PROJECT-SETUP.md`
+- [ ] Review `/docs/knowledge-base/` structure
+- [ ] Check active projects in `/docs/customers/`
+- [ ] Understand dual tracking system
+- [ ] Understand ByteRover MCP usage
+- [ ] Understand Superpowers skills requirements
+- [ ] Test sync scripts
+- [ ] Verify you can push changes
+
+**Only after completing this checklist are you ready to assist the user with full context and continuity.**

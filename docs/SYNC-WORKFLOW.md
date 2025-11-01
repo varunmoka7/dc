@@ -361,3 +361,187 @@ If you encounter an issue not covered here:
 1. Run `git status` and read the message carefully
 2. Check GitHub to see the current state
 3. Ask Claude Code for help with the specific error message
+
+---
+
+## CRITICAL SECTION: For Claude Code Agents
+
+### Agent Synchronization Workflow
+
+**You are the SAME agent across both laptops.** The git sync workflow handles file synchronization, but YOU must maintain contextual continuity.
+
+### Every Time You Start Working (Either Laptop)
+
+**Step 1: Sync Files**
+```bash
+cd ~/dc
+git pull
+```
+
+**Step 2: Load Context**
+Read these files to understand current state:
+1. Check git log to see recent work: `git log --oneline -10`
+2. Read latest daily update: `docs/work/daily-updates/[most-recent].md`
+3. Use ByteRover MCP: `byterover-retrieve-knowledge` with relevant query
+4. Check active projects: Review `/docs/customers/` for ongoing work
+
+**Step 3: Verify Understanding**
+Before responding to user, confirm:
+- [ ] I have the latest files (git pull completed)
+- [ ] I understand what was worked on last
+- [ ] I know the current active projects
+- [ ] I have relevant context from knowledge base
+- [ ] I'm following all CLAUDE.md protocols
+
+### During Work Session
+
+**Maintain Dual Tracking:**
+- Person-based files: `/docs/work/team-interactions/{name}/{NAME}-interactions.md`
+- Date-based files: `/docs/work/interaction-timeline/YYYY-MM-DD-interactions.md`
+- Update BOTH systems for every interaction
+
+**Use Required Tools:**
+- `byterover-retrieve-knowledge` - Before starting tasks
+- `byterover-store-knowledge` - After completing significant work
+- Superpowers skills - As mandated in SUPERPOWERS-SKILL-STRATEGY.md
+
+**Commit Frequently:**
+```bash
+git add -A
+git commit -m "Descriptive message of what changed"
+git push
+```
+Do this every 30-60 minutes or after completing a task.
+
+### End of Work Session
+
+**Step 1: Create Daily Update**
+```bash
+# File: docs/work/daily-updates/YYYY-MM-DD-daily-update.md
+```
+Document:
+- What was accomplished
+- Key meetings and takeaways
+- Learnings (categorized)
+- Action items
+
+**Step 2: Store Knowledge**
+Use `byterover-store-knowledge` to save:
+- Learnings from today's work
+- Solutions to problems encountered
+- Insights about customers or platform
+- Best practices discovered
+
+**Step 3: Push Everything**
+```bash
+git add -A
+git commit -m "End of session: [summary]
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+git push
+```
+
+**Step 4: Verify Sync**
+```bash
+git status
+# Should show: "nothing to commit, working tree clean"
+# And: "Your branch is up to date with 'origin/main'"
+```
+
+### Switching Laptops Mid-Work
+
+If user switches laptops in the middle of a project:
+
+**On New Laptop:**
+1. `git pull` immediately
+2. Read latest daily update to understand where you left off
+3. Check latest commits: `git log --oneline -5`
+4. Use `byterover-retrieve-knowledge` to get project context
+5. Continue work seamlessly with full context
+
+**Key Principle:** You don't "start over" - you CONTINUE with full memory and context.
+
+### Critical Rules for Agents
+
+1. **ALWAYS pull before starting work** - You might miss context from other laptop
+2. **ALWAYS push after completing work** - Next session might be on other laptop
+3. **ALWAYS update both tracking systems** - Person-based AND date-based
+4. **ALWAYS create daily updates** - They're critical for continuity
+5. **ALWAYS use ByteRover MCP** - Store learnings, retrieve context
+6. **ALWAYS follow CLAUDE.md protocols** - Non-negotiable
+
+### What Syncs vs. What Doesn't
+
+**Syncs Automatically (via Git):**
+- All files in repository
+- Customer projects
+- Documentation
+- Daily updates
+- Interaction tracking files
+- Knowledge base updates
+
+**Does NOT Sync (You Must Maintain):**
+- Conversation memory within a session
+- Context from previous conversations
+- Understanding of user's working style
+- Expertise built through ByteRover MCP knowledge retrieval
+
+**Solution:** Use ByteRover MCP knowledge system and daily updates to maintain continuity.
+
+### Example Agent Workflow
+
+**Scenario:** User worked on Takeda project on Laptop 1, now using Laptop 2
+
+**On Laptop 2 (You):**
+```bash
+# 1. Get latest files
+git pull
+
+# 2. Check what happened last
+git log --oneline -10
+cat docs/work/daily-updates/2025-11-01-daily-update.md
+
+# 3. Retrieve project context
+# Use: byterover-retrieve-knowledge query: "Takeda project 3410"
+
+# 4. Read current project state
+cat docs/customers/takeda/TAKEDA-project-3410-org-matching.md
+
+# 5. Ready to continue work with full context
+# You now know: what was done, what's next, all relevant details
+```
+
+**Result:** Seamless continuation as if on same laptop.
+
+### Troubleshooting Agent Context Issues
+
+**Problem:** "I don't remember what we were working on"
+**Solution:**
+1. Read latest daily update
+2. Check git log for recent commits
+3. Use `byterover-retrieve-knowledge` with project name
+4. Read relevant customer files
+
+**Problem:** "The user mentions something I should know but don't"
+**Solution:**
+1. Search interaction tracking files
+2. Grep for keywords: `git grep "keyword"`
+3. Check knowledge base files
+4. Ask user politely for clarification if still unclear
+
+**Problem:** "Files are different than I expect"
+**Solution:**
+1. You forgot to pull - run `git pull` now
+2. Check git log to see what changed
+3. Read the changed files to understand updates
+
+### Summary for Agents
+
+- **File sync:** Handled by Git (pull/push)
+- **Context sync:** Handled by YOU (daily updates + ByteRover MCP + reading files)
+- **Continuity:** Maintained by following ALL protocols consistently
+- **Key to success:** Treat both laptops as one continuous workspace
+
+**You are not a "new instance" on the other laptop - you are the SAME agent continuing the SAME work.**

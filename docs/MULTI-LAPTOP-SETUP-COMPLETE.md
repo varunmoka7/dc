@@ -279,10 +279,51 @@ You now have:
 
 ---
 
+## Agent Continuity Across Laptops
+
+**IMPORTANT FOR CLAUDE CODE AGENTS:**
+
+When working on either laptop, you are the SAME agent with the SAME responsibilities:
+
+### Before Starting Work on Any Laptop
+1. Run `git pull` to get latest changes
+2. Read `/Users/varunmoka/dc/CLAUDE.md` for complete project instructions
+3. Check `/docs/knowledge-base/` for domain expertise
+4. Review active customer projects in `/docs/customers/`
+5. Use `byterover-retrieve-knowledge` to get relevant context
+
+### During Work
+- Follow all protocols from CLAUDE.md:
+  - Dual tracking system (person-based + date-based)
+  - Daily updates at end of day
+  - Superpowers skills usage (brainstorming, verification, etc.)
+  - ByteRover MCP knowledge storage after significant work
+- Commit and push frequently (every 30-60 minutes)
+- Maintain continuity with previous work
+
+### After Completing Work
+1. Create/update daily update file
+2. Update interaction tracking files (both systems)
+3. Store knowledge using `byterover-store-knowledge`
+4. Run `git push` to sync changes
+5. Verify push succeeded
+
+### Current Active Projects (as of Nov 1, 2025)
+- **Takeda Project 3410** - Organization matching analysis
+- **Howden** - Sustainability report extraction and analysis
+- **Sprint Planning** - Task management and planning
+- **Learning Log** - Weekly knowledge building
+
+**Remember:** You maintain the same expertise, context, and responsibilities across both laptops. The sync workflow ensures file synchronization, but YOU ensure contextual continuity.
+
+---
+
 ## Questions?
 
 Refer to:
-- **Quick help:** `SYNC-QUICKREF.md`
+- **Project setup & agent instructions:** `docs/PROJECT-SETUP.md`
+- **Complete project protocols:** `/Users/varunmoka/dc/CLAUDE.md`
+- **Quick sync help:** `SYNC-QUICKREF.md`
 - **Full workflow:** `docs/SYNC-WORKFLOW.md`
 - **Setup help:** `docs/SETUP-OTHER-LAPTOP.md`
 - **Status check:** `./check-sync-status.sh`

@@ -2,9 +2,12 @@
 
 ## Project Context
 
-**Project Name**: Ditch Carbon Executive Research  
-**Created**: December 2024  
-**Purpose**: Private research workspace for Scope 3 Executive consultant role
+**Project Name**: Ditch Carbon Executive Research
+**Created**: October 2024
+**Start Date**: October 27, 2025
+**Purpose**: Private research workspace for Scope 3 Support Executive role
+**Role**: Scope 3 Support Executive (Freelance Consultant)
+**Primary Focus**: Customer delivery, research, and product insights
 
 ## Repository Purpose
 
@@ -24,23 +27,33 @@ This repository has been set up to serve as a **comprehensive knowledge and docu
 - Any legal documents related to the engagement
 
 ### `/docs/work/`
-- Deliverables and work products
-- Meeting notes
-- Task assignments
-- Progress reports
-- Analysis outputs
+- **daily-updates/** - End-of-day progress tracking (YYYY-MM-DD-daily-update.md)
+- **interaction-timeline/** - Date-based view of all interactions (YYYY-MM-DD-interactions.md)
+- **team-interactions/** - Person-based relationship tracking ({name}/{NAME}-interactions.md)
+- **standups/** - Team meeting notes (YYYY-MM-DD-standup.md)
+- **tasks/** - Task tracking files
+- **archive/** - Historical onboarding materials
 
-### `/docs/company/`
-- Ditch Carbon company overview
-- Organizational structure
-- Systems and processes documentation
-- Internal documentation about Scope 3 operations
+### `/docs/customers/`
+- Customer-specific project folders
+- **takeda/** - Takeda project materials, customer profile, QA evidence
+- **howden/** - Howden sustainability report extractions
+- Customer analysis and deliverables
 
-### `/docs/research/`
-- Research materials and references
-- Industry best practices
-- Technical documentation
-- Training materials
+### `/docs/knowledge-base/`
+- **README.md** - Overview and navigation
+- **01-EMISSIONS-FRAMEWORKS.md** - Scope 3 deep dive
+- **02-PLATFORM-GUIDE.md** - DitchCarbon product expertise
+- **03-CUSTOMER-SUCCESS.md** - Customer delivery playbook
+- **04-INDUSTRY-CONTEXT.md** - Regulatory and market context
+- **05-TOOLS-WORKFLOWS.md** - Internal tools and processes
+- **06-LEARNING-LOG.md** - Weekly learnings and reflections
+- **SUPERPOWERS-SKILL-STRATEGY.md** - Skill usage strategy
+
+### `/.bmad-core/`
+- BMad framework installation
+- Agents, templates, tasks, workflows
+- Project configuration
 
 ### `/.ai/`
 - AI workspace files
@@ -173,15 +186,66 @@ The AI assistant will learn about:
 "@pm create a project brief for my Scope 3 research work"
 ```
 
-## Status
+## Key Features & Tools
 
-✅ Repository initialized  
-✅ Directory structure created  
-✅ Privacy protections configured  
-⏳ Waiting for document ingestion  
-⏳ Ready to begin expert training  
+### Superpowers Skills (Mandatory Usage)
+- **Verification Before Completion** - Use before submitting any deliverable
+- **Brainstorming** - Use before major decisions
+- **Learning Log** - Update every Friday
+- See `/docs/knowledge-base/SUPERPOWERS-SKILL-STRATEGY.md` for full strategy
+
+### ByteRover MCP (Knowledge Management)
+- **byterover-store-knowledge** - Store learnings after significant work
+- **byterover-retrieve-knowledge** - Retrieve context before starting tasks
+
+### Dual Tracking System
+- **Person-based**: `/docs/work/team-interactions/{name}/`
+- **Date-based**: `/docs/work/interaction-timeline/`
+- Both must be updated simultaneously for all interactions
+
+### Daily Updates Protocol
+- Create end-of-day update: `/docs/work/daily-updates/YYYY-MM-DD-daily-update.md`
+- Feed insights to weekly learning log every Friday
+
+## Current Status (Updated November 1, 2025)
+
+✅ Repository initialized and active
+✅ Directory structure fully established
+✅ Multi-laptop sync configured
+✅ Knowledge base built and maintained
+✅ Customer projects active (Takeda, Howden)
+✅ BMad framework installed
+✅ Superpowers skills integrated
+✅ ByteRover MCP knowledge system active
+✅ Team interaction tracking established
+✅ Daily update system in place
 
 ---
 
-**Ready to Begin**: Share your documents to start the learning and expertise building process!
+## For Agents on Other Laptops
+
+**CRITICAL INSTRUCTIONS:**
+
+1. **Read CLAUDE.md first** - Contains all project instructions and protocols
+2. **Check knowledge base** - `/docs/knowledge-base/` for domain expertise
+3. **Review customer folders** - `/docs/customers/` for active projects
+4. **Follow tracking protocols**:
+   - Update both person-based AND date-based interaction files
+   - Create daily updates at end of workday
+   - Use Superpowers skills as mandated
+   - Store/retrieve knowledge using ByteRover MCP
+
+5. **Multi-laptop sync workflow**:
+   - ALWAYS `git pull` before starting work
+   - ALWAYS `git push` after completing work
+   - Use sync scripts: `sync-start.sh`, `sync-end.sh`, `quick-sync.sh`
+   - See `SYNC-WORKFLOW.md` for complete workflow
+
+6. **Current active work**:
+   - Takeda Project 3410 (org matching analysis)
+   - Howden sustainability report analysis
+   - Sprint planning and task management
+   - Weekly learning log updates
+
+**You are the same agent across laptops - maintain continuity, follow all protocols, and ensure work stays synchronized.**
 
