@@ -12,6 +12,10 @@ __pycache__/
 
 # macOS
 .DS_Store
+*.DS_Store
+
+# Claude Code local settings
+.claude/settings.local.json
 
 # IDE
 .vscode/
@@ -24,3 +28,21 @@ __pycache__/
 .kiro/steering/byterover-rules.md
 .qoder/rules/byterover-rules.md
 .augment/rules/byterover-rules.md
+
+# Large files and documents
+*.pdf
+*.PDF
+*.png
+*.PNG
+*.jpg
+*.jpeg
+*.gif
+
+# Customer documents (keep structure, not files)
+docs/customers/*/documents/*.pdf
+docs/customers/*/documents/*.png
+docs/Screenshots/*.png
+
+# QA evidence (keep locally, don't push)
+docs/customers/*/qa-evidence/*.pdf
+docs/customers/*/qa-evidence/*.png
